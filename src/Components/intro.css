@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.Intro{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0 10px;
+    
+}
+body{
+    background-color: aliceblue;
+}
+.Intro-component{
+    max-width: 700px;
+
+}
+.Intro-component h1{
+    font-size: 35px;
+    align-items: center;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-right: 220px;
+    font-weight: bold;
+    color:white;
+}
+.Intro-component h3{
+    font-size: 30px;
+    align-items: center;
+    margin-left: 40px;
+    font-weight: 600;
+    font-weight: bold;
+    color: blueviolet;
+}
+.Intro-component p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 40px;
+    margin-right: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.Intro-component button{
+    color: white;
+    background-color: aquamarine;
+    font-size: 20px;
+    width: 210px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 38px;
+}
+.Intro-component button:hover{
+    color: black;
+}
+.SocialMedia-icons{
+   margin-top: 70px;
+   
+}
+.SocialMedia-icons i{
+    font-size: 30px;
+    border-radius: 28%;
+    border-color: #3311cc;
+    color: white;
+    height: 27px;
+    width: 50px;
+    margin: 0 15px;
+    gap: 15px;
+    cursor: pointer;
+}
+.profile{
+    margin-right: 50px;
+    padding-left: 20px;
+    margin-top: -240px;
+    margin-right: 20px;
+}
+.right-image {
+    width: 400px; /* Adjust size as needed */
+    border-radius: 10%; /* Circular profile image */
+    /* Ensure image is not distorted */
+    /* Float image to the right */
+    /* Space between text and image */
+   margin-top: -300px;
+   margin-left: 710px;
+   margin-right: 20px;
+}
+   
+
+  
+@media (max-width: 768px) {
+    .Intro{
+        margin: 0 20px;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .Intro-component{
+        max-width: 100%;
+    }
+    .Intro-component h1{
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: 0;
+        
+    }
+    .Intro-component h3{
+        font-size: 22px;
+        margin: 0;
+    }
+    .Intro-component p{
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .profile {
+        margin-left: 20px;
+      }
+      .right-image {
+        width: 203px;
+        border-radius: 73%;
+        object-fit: cover;
+        margin-left: 56px;
+        margin-top: -774px;
+        float: right;
+    }
+}
+
